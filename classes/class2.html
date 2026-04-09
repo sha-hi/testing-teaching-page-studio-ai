@@ -4,19 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class 2</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f7;
+            color: #333;
+        }
+
+        header {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .games a {
+            display: block;
+            padding: 12px;
+            margin: 8px 0;
+            background: #eaf2f8;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #2c3e50;
+            transition: 0.3s;
+        }
+
+        .games a:hover {
+            background: #d4e6f1;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: #34495e;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .back-btn:hover {
+            background: #2c3e50;
+        }
+    </style>
 </head>
 <body>
-<h1>Class 2</h1>
-<p><strong>Students:</strong> Sahood, Hasna, Zayan, Hamidha Noora</p>
 
-    <h3>Timetable</h3>
-    <p>Add timetable here</p>
+<header>
+    <h1>Class 2</h1>
+    <p>Building Reading & Understanding Skills</p>
+</header>
 
-    <h3>Activities</h3>
-    <p>Add class activities here</p>
+<div class="container">
 
-    <br>
-    <a href="../index.html">⬅ Back to Home</a>
+    <!-- Students -->
+    <div class="card">
+        <h2>Students</h2>
+        <ul>
+            <li>Sahood</li>
+            <li>Hasna</li>
+            <li>Zayan</li>
+            <li>Hamidha Noora</li>
+        </ul>
+    </div>
+
+    <!-- Learning Focus -->
+    <div class="card">
+        <h2>Learning Focus</h2>
+        <p>Improving reading fluency, combining letters, understanding Harakat, and forming simple words through interactive learning.</p>
+    </div>
+
+    <!-- Games -->
+    <div class="card games">
+        <h2>Learning Games</h2>
+
+        <!-- Update names according to your files -->
+        <a href="../games/reading-game.html">Reading Practice Game</a>
+        <a href="../games/matching-game.html">Letter Matching Game</a>
+        <a href="../games/word-build.html">Word Building Game</a>
+        <a href="../games/harakat-advanced.html">Advanced Harakat Practice</a>
+        <a href="../games/sound-match.html">Sound Matching Game</a>
+
+    </div>
+
+    <!-- Back -->
+    <a href="../index.html" class="back-btn">⬅ Back to Home</a>
+
+</div>
 
 </body>
 </html>

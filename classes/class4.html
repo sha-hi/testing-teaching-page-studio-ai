@@ -4,19 +4,216 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class 4</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f2f4f8;
+            color: #333;
+        }
+
+        header {
+            background: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #1a237e;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background: #e8eaf6;
+        }
+
+        /* Games */
+        .games a {
+            display: block;
+            padding: 12px;
+            margin: 8px 0;
+            background: #e8eaf6;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #1a237e;
+            transition: 0.3s;
+        }
+
+        .games a:hover {
+            background: #c5cae9;
+        }
+
+        /* Announcement */
+        .announcement {
+            background: #fff8e1;
+            border-left: 5px solid #fbc02d;
+            padding: 15px;
+        }
+
+        /* Back Button */
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: #1a237e;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .back-btn:hover {
+            background: #0d133d;
+        }
+    </style>
 </head>
 <body>
-<h1>Class 4</h1>
-<p><strong>Students:</strong> Amaana, Hamza, Al Ameen, Hamdan, Hafid, Shamil</p>
 
-    <h3>Timetable</h3>
-    <p>Add timetable here</p>
+<header>
+    <h1>Class 4</h1>
+    <p>Advanced Learning & Student Progress Portal</p>
+</header>
 
-    <h3>Activities</h3>
-    <p>Add class activities here</p>
+<div class="container">
 
-    <br>
-    <a href="../index.html">⬅ Back to Home</a>
+    <!-- Students -->
+    <div class="card">
+        <h2>Students</h2>
+        <ul>
+            <li>Amaana</li>
+            <li>Hamza</li>
+            <li>Al Ameen</li>
+            <li>Hamdan</li>
+            <li>Hafid</li>
+            <li>Shamil</li>
+        </ul>
+    </div>
+
+    <!-- Learning Focus -->
+    <div class="card">
+        <h2>Learning Focus</h2>
+        <p>Advanced reading, understanding Islamic concepts, applying knowledge, and building confidence in recitation and comprehension.</p>
+    </div>
+
+    <!-- Timetable -->
+    <div class="card">
+        <h2>Weekly Timetable</h2>
+
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Subject</th>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Qur'an & Tajweed</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Fiqh & Practice</td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Islamic History</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Aqeedah</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Progress / Marks -->
+    <div class="card">
+        <h2>Student Progress</h2>
+
+        <table>
+            <tr>
+                <th>Student</th>
+                <th>Progress</th>
+            </tr>
+            <tr>
+                <td>Amaana</td>
+                <td>Good</td>
+            </tr>
+            <tr>
+                <td>Hamza</td>
+                <td>Very Good</td>
+            </tr>
+            <tr>
+                <td>Al Ameen</td>
+                <td>Excellent</td>
+            </tr>
+            <tr>
+                <td>Hamdan</td>
+                <td>Good</td>
+            </tr>
+            <tr>
+                <td>Hafid</td>
+                <td>Very Good</td>
+            </tr>
+            <tr>
+                <td>Shamil</td>
+                <td>Excellent</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Announcements -->
+    <div class="card announcement">
+        <h2>Announcements</h2>
+        <p>📌 Students should revise daily lessons and complete assigned activities regularly.</p>
+    </div>
+
+    <!-- Games -->
+    <div class="card games">
+        <h2>Learning Games & Activities</h2>
+
+        <!-- Update according to your files -->
+        <a href="../games/quiz-game.html">Islamic Quiz</a>
+        <a href="../games/advanced-reading.html">Advanced Reading Practice</a>
+        <a href="../games/fill-blanks.html">Fill in the Blanks</a>
+        <a href="../games/mcq-game.html">MCQ Practice</a>
+        <a href="../games/memory-game.html">Memory Challenge</a>
+
+    </div>
+
+    <!-- Back -->
+    <a href="../index.html" class="back-btn">⬅ Back to Home</a>
+
+</div>
 
 </body>
 </html>

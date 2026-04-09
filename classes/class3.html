@@ -4,19 +4,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class 3</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f3f6f4;
+            color: #333;
+        }
+
+        header {
+            background: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #1b5e20;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Timetable */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background: #e8f5e9;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Games */
+        .games a {
+            display: block;
+            padding: 12px;
+            margin: 8px 0;
+            background: #e8f5e9;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #1b5e20;
+            transition: 0.3s;
+        }
+
+        .games a:hover {
+            background: #c8e6c9;
+        }
+
+        /* Back Button */
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: #2e7d32;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .back-btn:hover {
+            background: #1b5e20;
+        }
+    </style>
 </head>
 <body>
-<h1>Class 3</h1>
-<p><strong>Students:</strong> Hadiya Noora, Aaliya, Safwan</p>
 
-    <h3>Timetable</h3>
-    <p>Add timetable here</p>
+<header>
+    <h1>Class 3</h1>
+    <p>Developing Reading, Understanding & Application</p>
+</header>
 
-    <h3>Activities</h3>
-    <p>Add class activities here</p>
+<div class="container">
 
-    <br>
-    <a href="../index.html">⬅ Back to Home</a>
+    <!-- Students -->
+    <div class="card">
+        <h2>Students</h2>
+        <ul>
+            <li>Hadiya Noora</li>
+            <li>Aaliya</li>
+            <li>Safwan</li>
+        </ul>
+    </div>
+
+    <!-- Learning Focus -->
+    <div class="card">
+        <h2>Learning Focus</h2>
+        <p>Improving reading accuracy, understanding meanings, and forming complete words and simple sentences with confidence.</p>
+    </div>
+
+    <!-- Timetable -->
+    <div class="card">
+        <h2>Weekly Timetable</h2>
+
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Subject</th>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Qur'an & Reading</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Harakat & Writing</td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Islamic Studies</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Games -->
+    <div class="card games">
+        <h2>Learning Games</h2>
+
+        <!-- Update links based on your files -->
+        <a href="../games/word-build.html">Word Building Game</a>
+        <a href="../games/sentence-game.html">Sentence Formation</a>
+        <a href="../games/reading-advanced.html">Advanced Reading</a>
+        <a href="../games/quiz-basic.html">Basic Islamic Quiz</a>
+        <a href="../games/fill-blanks.html">Fill in the Blanks</a>
+
+    </div>
+
+    <!-- Back -->
+    <a href="../index.html" class="back-btn">⬅ Back to Home</a>
+
+</div>
 
 </body>
 </html>
